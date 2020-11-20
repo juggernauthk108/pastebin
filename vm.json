@@ -1,0 +1,414 @@
+[
+  {
+    "additionalCapabilities": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_B4ms"
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/compliance-application",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": null,
+    "location": "centralindia",
+    "name": "compliance-application",
+    "networkProfile": {
+      "networkInterfaces": [
+        {
+          "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/Compliance_Automation-RG/providers/Microsoft.Network/networkInterfaces/compliance-applicati856",
+          "primary": null,
+          "resourceGroup": "Compliance_Automation-RG"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "admincompliance",
+      "allowExtensionOperations": true,
+      "computerName": "compliance-application",
+      "customData": null,
+      "linuxConfiguration": {
+        "disablePasswordAuthentication": false,
+        "patchSettings": {
+          "patchMode": "ImageDefault"
+        },
+        "provisionVmAgent": true,
+        "ssh": null
+      },
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": null
+    },
+    "plan": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/compliance-application/extensions/enablevmaccess",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+        "settings": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "virtualMachineExtensionType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/compliance-application/extensions/LinuxAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+        "settings": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "virtualMachineExtensionType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/compliance-application/extensions/OmsAgentForLinux",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+        "settings": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "virtualMachineExtensionType": null
+      }
+    ],
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "imageReference": {
+        "exactVersion": "18.04.202009220",
+        "id": null,
+        "offer": "UbuntuServer",
+        "publisher": "Canonical",
+        "sku": "18.04-LTS",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "diffDiskSettings": null,
+        "diskSizeGb": 30,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/disks/compliance-application_OsDisk_1_ef4a5773e6a746af968d36eb0d675e7a",
+          "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+          "storageAccountType": "Standard_LRS"
+        },
+        "name": "compliance-application_OsDisk_1_ef4a5773e6a746af968d36eb0d675e7a",
+        "osType": "Linux",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": null,
+    "type": "Microsoft.Compute/virtualMachines",
+    "virtualMachineScaleSet": null,
+    "vmId": "1a6a4321-2d93-4dc4-85ec-1bca4dead875",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_B8ms"
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/compliance-database",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": null,
+    "location": "centralindia",
+    "name": "compliance-database",
+    "networkProfile": {
+      "networkInterfaces": [
+        {
+          "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/Compliance_Automation-RG/providers/Microsoft.Network/networkInterfaces/compliance-database211",
+          "primary": null,
+          "resourceGroup": "Compliance_Automation-RG"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "admincompliance",
+      "allowExtensionOperations": true,
+      "computerName": "compliance-database",
+      "customData": null,
+      "linuxConfiguration": {
+        "disablePasswordAuthentication": false,
+        "patchSettings": {
+          "patchMode": "ImageDefault"
+        },
+        "provisionVmAgent": true,
+        "ssh": null
+      },
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": null
+    },
+    "plan": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/compliance-database/extensions/DependencyAgent",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+        "settings": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "virtualMachineExtensionType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/compliance-database/extensions/LinuxAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+        "settings": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "virtualMachineExtensionType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/compliance-database/extensions/OmsAgentForLinux",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+        "settings": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "virtualMachineExtensionType": null
+      }
+    ],
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "imageReference": {
+        "exactVersion": "18.04.202009220",
+        "id": null,
+        "offer": "UbuntuServer",
+        "publisher": "Canonical",
+        "sku": "18.04-LTS",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "diffDiskSettings": null,
+        "diskSizeGb": 30,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/disks/compliance-database_OsDisk_1_b7e4b646c26f4277ac1972fa425adb4e",
+          "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+          "storageAccountType": "Standard_LRS"
+        },
+        "name": "compliance-database_OsDisk_1_b7e4b646c26f4277ac1972fa425adb4e",
+        "osType": "Linux",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": null,
+    "type": "Microsoft.Compute/virtualMachines",
+    "virtualMachineScaleSet": null,
+    "vmId": "80e3ce7a-db7f-4167-a08c-82880140a622",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_D2s_v3"
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/Jenkins2",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": null,
+    "location": "centralindia",
+    "name": "Jenkins2",
+    "networkProfile": {
+      "networkInterfaces": [
+        {
+          "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/Compliance_Automation-RG/providers/Microsoft.Network/networkInterfaces/jenkins2357",
+          "primary": null,
+          "resourceGroup": "Compliance_Automation-RG"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "azureuser",
+      "allowExtensionOperations": true,
+      "computerName": "Jenkins2",
+      "customData": null,
+      "linuxConfiguration": {
+        "disablePasswordAuthentication": true,
+        "patchSettings": {
+          "patchMode": "ImageDefault"
+        },
+        "provisionVmAgent": true,
+        "ssh": {
+          "publicKeys": [
+            {
+              "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC7rWtjLHPm9/aGLnYF/6vH/EIr\r\nyZYoGHGIAqIEtc+O2XR5EvybeCWZ3xl/xXvYv2C0Z904uQ7hDU0fZ/hPcI6em15e\r\nDVXaNROm7vJhtcz5OHccxWhDGozJnWELJeE99relnb3twT8rfBoY4U26CDgexsDT\r\naeoWupp9ch6k+fBVkplCMF3IggGyE+DCTC4pA8m2PLYEtkr4SnH0JtMoniHkmfGS\r\npyl4viY59MHELUibn373fsfdXv26lp5B45mYdXQfSbjDxFeRR6ebeTdcfXu3gqTW\r\nZftdFryqKZG1uFGtRCtI7GaEgZH8kpVwd9SbQvIRxXfQWU3B/OyAlXOIEnQQscoc\r\n0sbJqzn3Goy+O37HLqOLBiqz5Px8QaPaLQgFe6zH6MnVugsLRM29t8UajIWDllJS\r\nd4BApF91knGHh0oQUm2Zn84mT5nRkBbKV5lhBgWFbgwvtEm2a7Frhgpkh/2whO/T\r\nFPhppolOk2RAqffOxVp58FzfTJleRjUvdBzxfGU= generated-by-azure\r\n",
+              "path": "/home/azureuser/.ssh/authorized_keys"
+            }
+          ]
+        }
+      },
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": null
+    },
+    "plan": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/virtualMachines/Jenkins2/extensions/OmsAgentForLinux",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+        "settings": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "virtualMachineExtensionType": null
+      }
+    ],
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "imageReference": {
+        "exactVersion": "18.04.202010140",
+        "id": null,
+        "offer": "UbuntuServer",
+        "publisher": "Canonical",
+        "sku": "18.04-LTS",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "diffDiskSettings": null,
+        "diskSizeGb": 30,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/2b8e8f56-8d0e-4c26-a101-6de21aa69ccf/resourceGroups/COMPLIANCE_AUTOMATION-RG/providers/Microsoft.Compute/disks/Jenkins2_OsDisk_1_a09e1687e1134f1f9ed7dee017fef562",
+          "resourceGroup": "COMPLIANCE_AUTOMATION-RG",
+          "storageAccountType": "Premium_LRS"
+        },
+        "name": "Jenkins2_OsDisk_1_a09e1687e1134f1f9ed7dee017fef562",
+        "osType": "Linux",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": null,
+    "type": "Microsoft.Compute/virtualMachines",
+    "virtualMachineScaleSet": null,
+    "vmId": "37d35725-2ea1-4647-a44a-18a672516d1b",
+    "zones": null
+  }
+]
