@@ -1,0 +1,17 @@
+S3 buckets          	251    
+EC2 instances       	646    
+ELBs                	21     
+ELBv2s              	39     
+RDS instances       	75     
+Redshift clusters   	2      
+ElasticSearch domains	17     
+Elasticache clusters	4      
+SNS topics          	100    
+SQS queues          	125    
+CloudFronts         	19     
+Autoscaling groups  	13     
+ElasticBeanstalks   	2      
+Firehose streams    	4      
+Glacier vaults      	2      
+KMS keys            	44     
+Lambda functions    	90
